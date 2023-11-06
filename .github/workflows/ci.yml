@@ -20,8 +20,8 @@ jobs:
 
       - name: Auto green
         run: |
-          git config --local user.email "axy521174@gmail.com"
-          git config --local user.name "JediMaker"
+          git config --local user.email "starrynightrhapsodycosmicdream@gmail.com"
+          git config --local user.name "starrynighte"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
